@@ -1,0 +1,24 @@
+﻿/* 
+ * (Logan Ross) 
+ * (Assignment 2) 
+ * (Makes the propeller spin) 
+ */
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PropellerSpin : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Rotate(0, 0, 15);
+    }
+}
